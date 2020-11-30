@@ -8,8 +8,8 @@ fun main() {
 
 fun checkBilangan(angka: Int) {
     if  (angka % 2 == 0) {
-        println("angka genap")
+        println("$angka adalah angka genap")
     } else {
-        println("angka ganjil")
+        println("$angka adalah angka ganjil")
     }
 }
